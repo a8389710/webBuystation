@@ -38,11 +38,11 @@ $(function() {
     
                 var imgadr = '';
                
-                imgadr ='..' + $($m[1]).css('background-image').slice(33).slice(0,-2);
+                imgadr ='..' + $($m[1]).css('background-image').slice(31).slice(0,-2);
                 console.log(imgadr)
                 goodsdetail.goodView = imgadr;
-            goodsbox.push(goodsdetail)
-            localStorage.goodtocar = JSON.stringify(goodsbox);
+                goodsbox.push(goodsdetail)
+                localStorage.goodtocar = JSON.stringify(goodsbox);
             // window.open('./buy-car.html')
             }
             ishas = true;
@@ -66,9 +66,9 @@ $(function() {
                   goodsdetail.shopName = $('.store-name').text();
                   goodsdetail.htotal = goodsdetail.onePrice * goodsdetail.count;
                //获取购物车展示图片地址
-               var imgadr = '';
-               imgadr ='..' + $($m[1]).css('background-image').slice(33).slice(0,-2);   
-               goodsdetail.goodView = imgadr;
+                  var imgadr = '';
+                  imgadr ='..' + $($m[1]).css('background-image').slice(31).slice(0,-2);   
+                  goodsdetail.goodView = imgadr;
 
 
 //判断是否购物车已含有该物品
