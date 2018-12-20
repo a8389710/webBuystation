@@ -51,7 +51,7 @@ function homePageAjax() {
 
     // 2. 数据请求
     $.ajax({
-        url: './json/apple.json',
+        url: 'https://www.easy-mock.com/mock/5c1b0deb48952b7bd6514342/example/mock',
         success: (response) => {
             // 加载数据
             // news => 封装数据的标题
