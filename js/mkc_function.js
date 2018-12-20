@@ -188,26 +188,28 @@ function tabshow(){
 
 function gotobuycar (){
     $('.aside-purches').click(()=>{
-        window.open('/webBuystation/pages/buy-car.html',"_self")
+        window.open('./pages/buy-car.html',"_self")
     })
 }
 
 function gotologin(){
     $('.sn-login').click(()=>{
-        window.open('/webBuystation/pages/login.html',"_self")
+        window.open('./pages/login.html',"_self")
     })
 }
-
+//展示用户昵称
 function usermsgshow(){
-    var user='';
-    var num =null;
-    if(JSON.parse(localStorage.islogin)){
+    var num = null;
+    if(localStorage.getItem('islogin') || !JSON.parse(localStorage.islogin)){
         $('.login-show').addClass('hid');
         $('.go-down').removeClass('hid')
-        j = JSON.parse(localStorage.userj)
-        $('.username').text(j)
-        num = JSON.parse(localStorage.goodtocar).length;
-        $('.cart-count').text(num)
+        var j = JSON.parse(localStorage.userj)
+        $('.username').text(j);
+        if(localStorage.getItem('goodtocar')==""||JSON.parse(localStorage.goodtocar)!=null){
+            num = JSON.parse(localStorage.goodtocar).length;
+            $('.cart-count').text(num)
+        }
+    
     }
 }
 
@@ -249,7 +251,7 @@ function search(datas,p,fnum){
        
        $(keybox).each((i,m)=>{
 
-    listr += `
+        listr += `
         <li class="product">
             <div class="product-iWrap">
                 <div class="product-wrap">
@@ -304,10 +306,10 @@ function search(datas,p,fnum){
         msgpass(keybox,fnum)
        $('.ui-page').addClass('hid')
 
-    })
+            })
 
 
-}
+        }
 
 //信息传递
 function msgpass(g,fnum){
