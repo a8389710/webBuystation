@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>订单结算</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="shortcut icon" href="../images/homepage/Tmall-logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <section class="head">
+        <header>
+            <span class="logo-head">TMALL天猫</span>
+        </header>
+
+        <!-- 地址信息 -->
+        <div class="address">
+            <span class="title">选择收获地址</span>
+            <ul class="address-list">
+                <li>
+                    <div class="receiver-msg">
+                        <div class="adr-name">
+                            <span>四川<h3>乐山</h3></span>(<span class="user">刘帅帅</span>收)
+                        </div>
+                        <div class="adr-detail">
+                            <p><span class="addrdes"> 乐山市 市中区 海上人间</span> <span class="tel">13311111111</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="receiver-msg">
+                        <div class="adr-name">
+                            <span>四川<h3>成都</h3></span>(<span class="user">于美美</span>收)
+                        </div>
+                        <div class="adr-detail">
+                            <p><span class="addrdes"> 成都市 武侯区  天堂</span><span class="tel">13322222222</span></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="receiver-msg">
+                        <div class="adr-name">
+                            <span>四川<h3>绵阳</h3></span>(<span class="user">王丑丑</span>收)
+                        </div>
+                        <div class="adr-detail">
+                            <p><span class="addrdes"> 绵阳市 中心区  地狱</span> <span class="tel">13333333333</span> </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <!-- 订单信息 -->
+        <div class="order-msg">
+            <button type="button" class="new-address">使用新地址</button>
+            <span class="order-title">确认订单信息</span>
+            <!-- 栏目标题 -->
+            <div class="goods-titles">
+                <p class="name">店铺宝贝</p>
+                <p class="msg">商品属性</p>
+                <p class="price">单价</p>
+                <p class="count">数量</p>
+                <p class="sellway">优惠方式</p>
+                <p class="total">小计</p>
+            </div>
+
+            <!-- 订单详情内容 -->
+            <div class="order-list">
+                <ul>
+
+                </ul>
+            </div>
+            <div class="pay">
+                <div class="pay-box">
+                    <p>实付款: <span class="total">¥10000</span> </p>
+                    <p>寄送至: <span class="payaddress">四川 成都 武侯区 天府三街</span> </p>
+                    <p>收货人: <span class="pay-user">刘帅帅</span>
+                        <span class="paytel">17628331820</span></p>
+                </div>
+                <button class="btn">提交订单</button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/order.js"></script>
+</body>
+
+</html>

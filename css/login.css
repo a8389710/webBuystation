@@ -1,0 +1,92 @@
+@charset 'utf-8';
+header {
+    margin-left: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    background: black;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.bgimg {
+    margin-left: 100px;
+    width: 1000px;
+    background: url(../images/detail/1.jpg) center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.logo-head {
+    color: red;
+    font-size: 40px;
+}
+
+.box {
+    position: absolute;
+    background: #fff;
+    right: 60px;
+    top: 50px;
+    width: 350px;
+    height: 400px;
+    padding: 0 20px;
+}
+
+.box p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.box p.btn {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 20px;
+    cursor: pointer;
+    color: #727272;
+    position: absolute;
+    right: 30px;
+}
+
+.box button {
+    width: 100%;
+    outline: none;
+    margin-top: 30px;
+    height: 45px;
+    border: 1px solid #919191;
+}
+
+.box button i {
+    display: block;
+    width: 44px;
+    height: 43px;
+    background: #e9e9e9;
+    font-size: 30px;
+    line-height: 43px;
+    float: left;
+}
+
+.box button input {
+    width: 80%;
+    height: 43px;
+    line-height: 44px;
+    text-align: left;
+}
+
+.box button.login-in,
+.box button.register-in {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #fff;
+    background: red;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.hidden {
+    display: none;
+}

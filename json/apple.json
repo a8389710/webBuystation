@@ -1,0 +1,868 @@
+{
+    "path":"../images/goods/",
+   
+    "iphone":
+    [
+        {
+            "title":"Apple/苹果 iPhone 8 Plus",
+            "imgShow":"./images/goods/iphone8/gold-iphone8-icon.jpg",
+            "imgChose":[
+                "./images/goods/iphone8/gold-iphone8-icon.jpg",
+                "./images/goods/iphone8/white-iphone8-icon.jpg",
+                "./images/goods/iphone8/black-iphone8-icon.jpg"],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥5999.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"6999",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"7999",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["粉色","白色","黑色"],
+            "des":"Apple Store 官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone 7 Plus",
+            "imgShow":"./images/goods/iphone7/iphone7(p).jpg",
+            "imgChose":[
+                "./images/goods/iphone7/gold-iphone7-icon.jpg",
+                "./images/goods/iphone7/black-iphone7-icon.jpg",
+                "./images/goods/iphone7/roser-iphone7-icon.jpg"],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥4488.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"4999",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"5959",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["金色","黑色","粉色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone 8",
+            "imgShow":"./images/goods/iphone7/red-iphone7.jpg",
+            "imgChose":[
+                "./images/goods/iphone8/gold-iphone8-icon.jpg",
+                "./images/goods/iphone8/white-iphone8-icon.jpg",
+                "./images/goods/iphone8/black-iphone8-icon.jpg"],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥5099.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"5099",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"6499",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["粉色","白色","黑色"],
+            "des":"Apple Store 官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone 7",
+            "imgShow":"./images/homepage/iphone7-icon(2).jpg",
+            "imgChose":[
+                "./images/goods/iphone7/gold-iphone7-icon.jpg",
+                "./images/homepage/iphone7-icon(2).jpg",
+                "./images/goods/iphone7/black-iphone7-icon.jpg",
+                "./images/goods/iphone7/roser-iphone7-icon.jpg"],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥4488.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"4449",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"5499",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["粉色","灰色","黑色","粉色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone X",
+            "imgShow":"./images/homepage/iphoneX.jpg",
+            "imgChose":[
+                "./images/homepage/iphoneX-icon(1).jpg",
+                "./images/homepage/iphoneX-icon(2).jpg"],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥7099.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"7099",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"8509",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["灰色","黑色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone XR",
+            "imgShow":"./images/goods/iphoneXR/iphoneXR.jpg",
+            "imgChose":[
+                "./images/goods/iphoneXR/white-iphonex-icon.jpg",
+                "./images/goods/iphoneXR/yellow-iphonexr-icon.jpg",
+                "./images/goods/iphoneXR/red-iphonexr-icon.jpg",
+                "./images/goods/iphoneXR/blue-iphonexr-icon.jpg",
+                "./images/goods/iphoneXR/black-iphonexr-icon.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥6999.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"6999",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"7999",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["白色","黄色","红色","蓝色","黑色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone XS Max 配备A12仿生芯片，支持双卡",
+            "imgShow":"./images/goods/iphoneXs/iphoneXS.jpg",
+            "imgChose":[
+                "./images/homepage/iphoneXS-icon(1).jpg",
+                "./images/goods/iphoneXR/white-iphonex-icon.jpg",
+                "./images/goods/iphoneXs/black-iphonexs-icon.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥10999.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"10999",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"11999",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["粉色","浅灰色","黑色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone XS Max 配备A12仿生芯片，支持双卡",
+            "imgShow":"./images/goods/iphoneXs/iphoneXS.jpg",
+            "imgChose":[
+                "./images/homepage/iphoneXS-icon(1).jpg",
+                "./images/goods/iphoneXR/white-iphonex-icon.jpg",
+                "./images/goods/iphoneXs/black-iphonexs-icon.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥10999.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"10099",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"11099",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["粉色","浅灰色","黑色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone 6s Plus",
+            "imgShow":"./images/goods/iphone6s-plus/iphone6s-icon(2).jpg",
+            "imgChose":[
+                "./images/goods/iphone6s-plus/ihone6s-icon(1).jpg",
+                "./images/goods/iphone6s-plus/iphone6s-icon(2).jpg",
+                "./images/goods/iphone6s-plus/iphone6s-icon(3).jpg",
+                "./images/goods/iphone6s-plus/iphone6s-icon(4).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥2788.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"2658",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"3099",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["金色","白色","粉色","灰色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone 6",
+            "imgShow":"./images/goods/iphone6/iphone6.jpg",
+            "imgChose":[
+                "./images/goods/iphone6/iphone6.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥2458.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"2458",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"3433",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["金色"],
+            "des":"中国移动官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone 6s",
+            "imgShow":"./images/goods/iphone6s/iphone6s.jpg",
+            "imgChose":[
+                "./images/goods/iphone6s/iphone6s.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥3499.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"3499",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"4099",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["粉色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone 5s",
+            "imgShow":"./images/goods/iphone5s/iphone5s.jpg",
+            "imgChose":[
+                "./images/goods/iphone5s/iphone5s.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥1228.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"1228",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"2339",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["金色"],
+            "des":"苏宁易购官方旗舰店"
+        },
+        {
+            "title":"闪修侠苹果手机iphoneX屏幕破碎碎屏内屏更换手机上门维修服务",
+            "imgShow":"./images/goods/repair/repair.jpg",
+            "imgChose":[
+                "./images/goods/repair/repair.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥2100.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"2100",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"3100",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"闪修侠旗舰店"
+        },
+        {
+            "title":"iphone苹果手机lighting数据线充电线编制线1米长",
+            "imgShow":"./images/goods/cable/cable(1).jpg",
+            "imgChose":[
+                "./images/goods/cable/cable(1).jpg",
+                "./images/goods/cable/cable(2).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥59.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "1.5m",
+                            "price":"59",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"2m",
+                            "price":"69",
+                            "count":"120"
+                        
+                        }
+                    ]
+                },
+            "color":["黑色","红色"],
+            "des":"小米官方旗舰店"
+        },
+        {
+            "title":"闪修侠iPhone6 6P 6s 6splus 7 7p内存升级苹果手机扩存硬盘128G",
+            "imgShow":"./images/goods/repair/repair-glases.jpg",
+            "imgChose":[
+                "./images/goods/repair/repair-glases.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥289.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"289",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"389",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"闪修侠旗舰店"
+        },
+        {
+            "title":"极客修苹果手机iPhone6 7代上门换电池+内存升级128G上门取件维修",
+            "imgShow":"./images/goods/iphone-else/else(1).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(1).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥398.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"398",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"498",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"极客修旗舰店"
+        },
+        {
+            "title":"极客修iphone6 6P6S 6SP外屏碎玻璃屏苹果手机换屏幕总成上门维修",
+            "imgShow":"./images/goods/repair/repaire-man.jpg",
+            "imgChose":[
+                "./images/goods/repair/repaire-man.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥199.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"199",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"299",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"极客修旗舰店"
+        },
+        {
+            "title":"极客修iphone6 6S 7P外屏碎玻璃苹果手机换屏幕总成上门维修",
+            "imgShow":"./images/goods/repair/repaire-man.jpg",
+            "imgChose":[
+                "./images/goods/repair/repaire-man.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥189.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"189",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"289",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"极客修旗舰店"
+        },
+        {
+            "title":"品胜数据线三合一苹果手机通用一拖三type-c安卓多功能充电线车载多头二合",
+            "imgShow":"./images/goods/cable/white-cable.jpg",
+            "imgChose":[
+                "./images/goods/cable/white-cable-icon(1).jpg",
+                "./images/goods/cable/white-cable-icon(2).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥32.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "1米",
+                            "price":"32",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"1.2米",
+                            "price":"40",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["白色"],
+            "des":"品胜数码旗舰店"
+        },
+        {
+            "title":"苹果5代iPhone5s换屏幕原装4.7/5.5外屏屏幕",
+            "imgShow":"./images/goods/iphone-else/else(2).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(2).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥109.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "4.7寸",
+                            "price":"109",
+                            "count":"300"
+                         },
+                        {
+                            "count":"200",
+                            "RAM":"5.5寸",
+                            "price":"119"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"birdroom百轮思双专卖店"
+        },
+        {
+            "title":"苹果手机iphoe5s6p/6s/7p/8plus/X ipad屏幕id解锁硬解ID锁回收",
+            "imgShow":"./images/goods/iphone-else/else(5).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(5).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥10.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"10",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"512GB",
+                            "price":"15"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"prettylady旗舰店"
+        },
+        {
+            "title":"闪修侠iphone6 6plus 6s 6sp电池更换膨胀苹果手机上门维修换电池",
+            "imgShow":"./images/goods/repair/repair(1).jpg",
+            "imgChose":[
+                "./images/goods/repair/repair(1).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥130.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"130",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"512GB",
+                            "price":"230"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"闪修侠旗舰店"
+        },
+        {
+            "title":"极客修iphone6 6plus 6s 6sp电池更换膨胀苹果手机上换电池",
+            "imgShow":"./images/goods/repair/repair(2).jpg",
+            "imgChose":[
+                "./images/goods/repair/repair(2).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥119.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"119",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"512GB",
+                            "price":"219"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"极客修旗舰店"
+        },
+        {
+            "title":"王思聪吃热狗烤香肠汉堡IG小黄鸭苹果钢化玻璃|卡通",
+            "imgShow":"./images/goods/iphone-else/else(6).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(6).jpg",
+                "./images/goods/iphone-else/else(7).jpg",
+                "./images/goods/iphone-else/else(8).jpg",
+                "./images/goods/iphone-else/else(9).jpg",
+                "./images/goods/iphone-else/else(10).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥29.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"29",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"512GB",
+                            "price":"39"
+                        
+                         }
+                    ]
+                },
+            "color":["白底","黑底","单张","白底","黑底"],
+            "des":"逸尚数码配件专营店"
+        },
+        {
+            "title":"闪修侠苹果手机iphone6系 换电池+扩容128G 上门维修支持寄修",
+            "imgShow":"./images/goods/iphone-else/else(11).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(11).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥418.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"418",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"512GB",
+                            "price":"518"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"闪修侠旗舰店"
+        },
+        {
+            "title":"极客修苹果iphone手机6S 6SPlus 7 7p后置摄像头更换上门维修服务",
+            "imgShow":"./images/goods/repair/repair(3).jpg",
+            "imgChose":[
+                "./images/goods/repair/repair(3).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥320.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "6系",
+                            "price":"320",
+                            "count":"300"
+                         },
+                        {
+                            "count":"7系",
+                            "RAM":"512GB",
+                            "price":"420"
+                        
+                         }
+                    ]
+                },
+            "color":["无"],
+            "des":"极客修旗舰店"
+        },
+        {
+            "title":"倍思苹果6电池iPhone6原装正品6s电Apple/苹果",
+            "imgShow":"./images/goods/iphone-else/else(12).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(12).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥106.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "6",
+                            "price":"106",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"6s",
+                            "price":"116"
+                        
+                         }
+                    ]
+                },
+            "color":["黑色"],
+            "des":"迈美乐数码旗舰店"
+        },
+        {
+            "title":"倍思苹果6电池iPhone6原装正品6s电Apple/苹果",
+            "imgShow":"./images/goods/iphone-else/else(12).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(12).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥106.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "6",
+                            "price":"110",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"6s",
+                            "price":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["黑色"],
+            "des":"迈美乐数码旗舰店"
+        },
+        {
+            "title":"倍思苹果6电池iPhone6原装正品6s电Apple/苹果",
+            "imgShow":"./images/goods/iphone-else/else(12).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(12).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥106.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "6",
+                            "price":"106",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"6s",
+                            "price":"130"
+                        
+                         }
+                    ]
+                },
+            "color":["黑色"],
+            "des":"迈美乐数码旗舰店"
+        },
+        {
+            "title":"倍思苹果6电池iPhone6原装正品6s电Apple/苹果",
+            "imgShow":"./images/goods/iphone-else/else(12).jpg",
+            "imgChose":[
+                "./images/goods/iphone-else/else(12).jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥106.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "6",
+                            "price":"106",
+                            "count":"300"
+                         },
+                        {
+                            "count":"120",
+                            "RAM":"6s",
+                            "price":"124"
+                        
+                         }
+                    ]
+                },
+            "color":["黑色"],
+            "des":"迈美乐数码旗舰店"
+        },
+        {
+            "title":"Apple/苹果 iPhone 5s",
+            "imgShow":"./images/goods/iphone5s/iphone5s.jpg",
+            "imgChose":[
+                "./images/goods/iphone5s/iphone5s.jpg"
+            ],
+            "img-detail":["./images/detail/apples-good-adv.jpg","./images/detail/care-adv.jpg","./images/detail/goods-des.jpg","./images/detail/buy-news.jpg","./images/detail/price-des.png"],
+            "money":"￥1228.00",
+            "type":{
+                "Name":[ 
+                         
+                        {
+                            "RAM": "256GB",
+                            "price":"1228",
+                            "count":"300"
+                         },
+                        {
+                            "RAM":"512GB",
+                            "price":"1400",
+                            "count":"120"
+                        
+                         }
+                    ]
+                },
+            "color":["金色"],
+            "des":"苏宁易购官方旗舰店"
+        }
+    ]
+    
+
+}

@@ -1,0 +1,20 @@
+@charset 'utf-8';
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 10px;
+}
+.img-boxs {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: right;
+          justify-content: right;
+  flex-wrap: nowrap;
+}
+.imgbox {
+  border: 1px #ddd solid;
+  margin-top: 6px;
+  margin-left: 12px;
+}

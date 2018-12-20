@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/buy-car.css">
+    <link rel="shortcut icon" href="../images/homepage/Tmall-logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <section class="tophead">
+
+        <header>
+            <div class="logo-box">
+                <span class="span-logo">淘宝网</span>
+                <p class="p-title">购物车</p>
+            </div>
+
+            <button type="button" class="btn-search">
+            <div class="goods-chose">宝贝</div>
+            <input  class="ipt-search" type="text" name="" id="">
+            <span class="span-search">搜索</span>
+        </button>
+
+        </header>
+
+
+
+    </section>
+
+    <section class="hasgoods hid">
+
+
+        <ul class="type-title">
+            <li>
+                <p>全部商品 <span class="goodsnum" style="color:orangered">1</span></p>
+            </li>
+            <li>
+                <p>降价商品 <span style="color:orangered">0</span></p>
+            </li>
+            <li>
+                <p>库存紧张 <span style="color:orangered">0</span></p>
+            </li>
+
+        </ul>
+
+        <div class="fr-pay">
+            <p>已选商品(不含运费)</p>
+            <p class="prices">0.00</p>
+            <span class="pay">结算</span>
+        </div>
+
+        <div class="goods-msg">
+            <div class="all-chose">
+                <input type="checkbox" class="all ipt-chose"><span>全选</span>
+            </div>
+            <p class="name">商品信息</p>
+            <p class="price">单价</p>
+            <p class="count">数量</p>
+            <p class="total">金额</p>
+            <p class="doing">操作</p>
+        </div>
+
+        <div class="goods-detail">
+
+            <ul class="goods-list">
+
+
+            </ul>
+        </div>
+
+
+        <!-- 底部操作栏 -->
+        <footer class="foot-doing">
+            <div class="all-chose">
+                <input type="checkbox" class="all ipt-chose"><span>全选</span>
+
+                <span class="delete-all del">删除</span>
+                <span class=>移入收藏夹</span>
+                <span>已选商品</span> <span class="chosed-num">0</span> <span>件</span>
+                <span>合计(不含运费) : </span><span class="chosed-total">0.00</span>
+
+                <button type="button" class="btn-pay">结算</button>
+
+            </div>
+        </footer>
+
+
+    </section>
+
+
+    <section class="nogoods hid">
+        <p class="loacation">您的位置:首页 > 我的淘宝 > 购物车</p>
+        <p class="des">购物车帮您一次性完成批量购买与付款，下单更便捷，付款更简单！如何使用购物车</p>
+        <div class="empty-car">
+            <p>
+                <span class="car-title">您的购物车还是空的，赶紧行动吧！您可以：</span> <br>
+                <span>看看 我的收藏夹</span> <br>
+                <span> 看看 已买到的宝贝</span>
+            </p>
+        </div>
+    </section>
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/buycar.js"></script>
+</body>
+
+</html>

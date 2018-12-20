@@ -1,0 +1,459 @@
+@charset 'utf-8';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo-box {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 500px;
+    float: left;
+    margin-top: -10px;
+}
+
+.span-logo {
+    color: orange;
+    font-size: 40px;
+    cursor: pointer;
+    float: left;
+}
+
+.p-title {
+    font-size: 20px;
+    width: 300px;
+}
+
+.btn-search {
+    position: absolute;
+    right: 0;
+    padding: 2px;
+    width: 500px;
+    height: 40px;
+    background: #fd7506;
+    outline: none;
+    border: none;
+}
+
+.goods-chose {
+    margin-left: 2px;
+    background: #f1f1f1;
+    padding-left: 10px;
+    width: 60px;
+    height: 30px;
+    text-align: left;
+    float: left;
+    line-height: 30px;
+}
+
+.ipt-search {
+    width: 320px;
+    height: 30px;
+    float: left;
+    padding-left: 10px;
+}
+
+.span-search {
+    width: 80px;
+    display: block;
+    height: 28px;
+    cursor: pointer;
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2px;
+}
+
+main {
+    width: 100%;
+}
+
+.type-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.type-title li {
+    width: 100px;
+    float: left;
+    padding: 5px;
+    margin-right: 50px;
+    border-bottom: 1px solid orange;
+    cursor: pointer;
+}
+
+.type-title li:first-child {
+    margin-left: 20px;
+}
+
+.hasgoods {
+    position: relative;
+    text-align: center;
+}
+
+.hasgoods .fr-pay {
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+}
+
+.hasgoods .fr-pay p {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+}
+
+.hasgoods .prices {
+    margin-left: 8px;
+    margin-right: 4px;
+    font-size: 14px;
+    color: orange;
+    font-weight: bold;
+}
+
+.hasgoods .pay {
+    color: #fff;
+    display: block;
+    width: 50px;
+    height: 24px;
+    border-radius: 3px;
+    line-height: 24px;
+    background: #9e9e9e;
+    float: left;
+}
+
+.hasgoods .goods-msg {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.goods-msg .all {
+    margin-right: 10px;
+}
+
+.goods-msg p {
+    float: left;
+}
+
+.goods-msg .all-chose {
+    width: 100px;
+    float: left;
+}
+
+.goods-msg .name {
+    margin-left: 80px;
+}
+
+.goods-msg .price {
+    margin-left: 300px;
+}
+
+.goods-msg .count {
+    margin-left: 80px;
+}
+
+.goods-msg .total {
+    margin-left: 80px;
+}
+
+.goods-msg .doing {
+    margin-left: 130px;
+}
+
+.goods-detail {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.goods-detail .shop-name {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.goods-detail .ipt-get {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.goods-detail .ipt-good {
+    margin-left: 10px;
+}
+
+.goods-show {
+    border: 1px solid rgba(153, 152, 152, 0.37);
+    background: rgba(240, 240, 240, 0.219);
+}
+
+.goods-show li {
+    display: flex;
+    padding: 10px;
+}
+
+.goods-show .ipt-good {
+    margin-left: 30px;
+    margin-right: 14px;
+}
+
+.goods-show .good-view {
+    width: 100px;
+    border: 1px solid #ddd;
+    height: 100px;
+}
+
+.goods-show .title {
+    width: 150px;
+    margin-left: 14px;
+    text-align: left;
+}
+
+.goods-show .good-des {
+    text-align: left;
+    margin-left: 40px;
+    color: #8b8a8a;
+}
+
+.goods-show .one-price {
+    margin-left: 48px;
+    font-weight: bold;
+}
+
+.goods-show .hmuch {
+    margin-left: 40px;
+    text-align: center;
+    position: relative;
+    background: #fcdcc775;
+    height: 50px;
+    width: 72px;
+    border: 1px solid rgba(240, 207, 175, 0.3);
+}
+
+.hmuch input {
+    text-align: center;
+    width: 42px;
+    border: 1px solid rgba(248, 171, 108, 0.9);
+    float: left;
+    height: 21px;
+    margin-top: -1px;
+    line-height: 20px;
+}
+
+.hmuch span {
+    display: block;
+}
+
+.hmuch .tipnum {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 4px;
+    display: block;
+    color: #ff1e1e;
+    text-align: center;
+}
+
+.hmuch .addnum {
+    color: #fc9117;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 138, 43, 0.3);
+    width: 14px;
+    height: 20px;
+    float: left;
+}
+
+.hmuch .downnum {
+    color: #fc9c4e;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 138, 43, 0.3);
+    width: 14px;
+    height: 20px;
+    float: left;
+}
+
+.goods-show .htotal {
+    margin-left: 44px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.goods-show .hdoing {
+    margin-left: 100px;
+    text-align: left;
+}
+
+.del {
+    cursor: pointer;
+}
+
+.goods-list .shop-goods {
+    margin-bottom: 30px;
+}
+
+.goods-show .one-good {
+    padding: 14px 8px 20px;
+}
+
+.goods-show .one-good:not(:last-child) {
+    border-bottom: 1px solid rgba(153, 152, 152, 0.37);
+}
+
+.foot-doing {
+    width: 100%;
+    float: left;
+    height: 50px;
+    position: relative;
+    background: #ddd;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.foot-doing .all-chose {
+    display: flex;
+}
+
+.foot-doing .all {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 100px;
+}
+
+.foot-doing p {
+    float: left;
+}
+
+.foot-doing span {
+    display: block;
+    line-height: 50px;
+}
+
+.foot-doing span:nth-child(2) {
+    margin-left: 20px;
+}
+
+.foot-doing span:nth-child(3) {
+    margin-left: 50px;
+}
+
+.foot-doing span:nth-child(4) {
+    margin-left: 50px;
+}
+
+.foot-doing span:nth-child(5) {
+    margin-left: 300px;
+}
+
+.foot-doing span:nth-child(8) {
+    margin-left: 40px;
+}
+
+.foot-doing .chosed-num {
+    color: orangered;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 3px;
+}
+
+.foot-doing .chosed-total {
+    color: orangered;
+    font-size: 20px;
+    margin: 0 4px;
+    font-weight: bold;
+}
+
+.foot-doing .btn-pay {
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 2px;
+    line-height: 24px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    background: #fd491b;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    outline: none;
+}
+
+.nogoods {
+    margin-top: 20px;
+}
+
+.empty-car {
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+    background: #ffffff;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+.nogoods p {
+    font-size: 12px;
+}
+
+.nogoods .loacation {
+    float: left;
+}
+
+.nogoods .des {
+    margin-left: 550px;
+}
+
+.empty-car .car-title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hid {
+    display: none;
+}

@@ -1,0 +1,231 @@
+@charset 'utf-8';
+header {
+    margin-left: 0;
+    padding: 0;
+}
+
+.logo-head {
+    color: red;
+    font-size: 40px;
+}
+
+.address .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.address .address-list {
+    margin-top: 20px;
+}
+
+.address .address-list li {
+    padding: 4px;
+    float: left;
+    font-size: 12px;
+}
+
+.address .address-list .receiver-msg {
+    width: 200px;
+    height: 100px;
+    border-radius: 4px;
+    padding: 8px 0 0 8px;
+    cursor: pointer;
+}
+
+.ddd {
+    border: 3px solid #ddd;
+    ;
+}
+
+.red {
+    border: 3px solid orangered;
+}
+
+.address .address-list .receiver-msg .adr-name {
+    width: 178px;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+.address .address-list .receiver-msg .adr-name span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.address .address-list .receiver-msg .adr-name span h3 {
+    display: inline;
+}
+
+.order-msg {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+}
+
+.order-msg .new-address {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.order-msg .order-title {
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+}
+
+.order-msg .goods-titles {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    display: -webkit-box;
+    display: flex;
+}
+
+.order-msg .goods-titles p {
+    float: left;
+    border-bottom: 3px solid #88bbff;
+    margin-right: 2px;
+}
+
+.order-msg .goods-titles p.name {
+    width: 452px;
+}
+
+.order-msg .goods-titles p.msg {
+    width: 220px;
+}
+
+.order-msg .goods-titles p.price {
+    width: 120px;
+}
+
+.order-msg .goods-titles p.count {
+    width: 120px;
+}
+
+.order-msg .goods-titles p.sellway {
+    width: 220px;
+}
+
+.order-msg .goods-titles p.total {
+    width: 100px;
+}
+
+.order-msg .order-list .shop-title {
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+.order-msg .order-list .good-des {
+    color: #4e4e4e;
+    background: #f5f5f5;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top: 1px dotted #8888fc;
+    border-bottom: 1px dotted #8888fc;
+    display: -webkit-box;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.order-msg .order-list .good-des p {
+    font-size: 12px;
+    float: left;
+}
+
+.order-msg .order-list .good-des img {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.order-msg .order-list .good-des .title {
+    padding: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 355px;
+}
+
+.order-msg .order-list .good-des .des {
+    margin-left: 20px;
+}
+
+.order-msg .order-list .good-des .des span {
+    width: 120px;
+    display: block;
+}
+
+.order-msg .order-list .good-des .price {
+    margin-left: 118px;
+}
+
+.order-msg .order-list .good-des .count {
+    margin-left: 100px;
+}
+
+.order-msg .order-list .good-des .sellway {
+    margin-left: 145px;
+}
+
+.order-msg .order-list .good-des .total {
+    color: red;
+    font-weight: bold;
+    margin-left: 126px;
+}
+
+.order-msg .pay {
+    position: absolute;
+    right: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.order-msg .pay .pay-box {
+    position: relative;
+    padding-right: 8px;
+    width: 330px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.order-msg .pay .pay-box p {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 2px;
+}
+
+.order-msg .pay .pay-box p .total {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.order-msg .pay .pay-box p span {
+    font-weight: normal;
+}
+
+.order-msg .pay .btn {
+    width: 170px;
+    height: 32px;
+    line-height: 32px;
+    background: red;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
