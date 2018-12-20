@@ -34,7 +34,11 @@ $(function() {
             if (localStorage.getItem('users') === null) {
                 userbox.push(usermsg);
                 alert('注册成功！');
+                islogin = true;
                 window.open('../index.html',"_self");
+                userjname = usermsg.name
+                localStorage.islogin = JSON.stringify(islogin);
+                localStorage.userj = JSON.stringify(userjname);
                 localStorage.users = JSON.stringify(userbox);
                 return;
             }

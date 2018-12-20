@@ -10,11 +10,17 @@ $(function() {
             $('.aside-top-logo').fadeOut();
         }
     })
+
     tabshow();
     gotobuycar ();
     gotologin();
     usermsgshow();
     godown();
+
+    if(localStorage.getItem("islogin") == null){
+        localStorage.islogin = false;
+    }
+
 
 });
 
@@ -198,7 +204,7 @@ function gotologin(){
 //展示用户昵称
 function usermsgshow(){
     var num = 0;
-    if(localStorage.getItem('islogin')=="" || JSON.parse(localStorage.islogin)==null){
+    if(localStorage.getItem('islogin')==null || JSON.parse(localStorage.islogin)==""){
         return;
     }
     else{  
@@ -209,7 +215,7 @@ function usermsgshow(){
         }
       
 
-        if(localStorage.getItem('goodtocar')!=""||JSON.parse(localStorage.goodtocar)!=null){
+        if(localStorage.getItem('goodtocar')!=null||JSON.parse(localStorage.goodtocar)!=""){
             num = JSON.parse(localStorage.goodtocar).length;
             $('.cart-count').text(num)
         }
