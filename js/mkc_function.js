@@ -186,13 +186,13 @@ function tabshow(){
 //网址跳转
 function gotobuycar (){
     $('.aside-purches').click(()=>{
-        window.open('./pages/buy-car.html',"_self")
+        window.open('/webBuystation/pages/buy-car.html',"_self")
     })
 }
 
 function gotologin(){
     $('.sn-login').click(()=>{
-        window.open('./pages/login.html',"_self");
+        window.open('/webBuystation/pages/login.html',"_self");
     })
 }
 //展示用户昵称
