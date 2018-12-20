@@ -106,8 +106,7 @@ $(function() {
  
     $('.fast-buy-btn').click(()=>{
         if(($('.red-active').length==4)){
-            alert('请确认物品已加入购物车！')
-            window.open('./buy-car.html')
+            window.open('./buy-car.html',"_self")
         }
         else{
             alert('请完善商品信息!');

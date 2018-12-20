@@ -34,8 +34,8 @@ $(function() {
             if (localStorage.getItem('users') === null) {
                 userbox.push(usermsg);
                 alert('注册成功！');
-                window.open('../index.html', "_self")
-                localStorage.users = JSON.stringify(userbox)
+                window.open('../index.html',"_self");
+                localStorage.users = JSON.stringify(userbox);
                 return;
             }
             //非第一次注册
@@ -62,7 +62,7 @@ $(function() {
                     localStorage.islogin = JSON.stringify(islogin);
                     localStorage.userj = JSON.stringify(userjname);
 
-                    window.open('../index.html', "_self")
+                    window.open('../index.html',"_self")
                 }
 
             }

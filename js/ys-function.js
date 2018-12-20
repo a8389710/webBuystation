@@ -89,8 +89,7 @@ function tabColor(){
 }
 // 存储容量
 function tabRam(){
-    let leng = $('.tab-ram li').length;
-    let colorRom = null;
+ 
  
     $($('.tab-ram li')).each((index,el)=>{
         let colorIdx = null;
