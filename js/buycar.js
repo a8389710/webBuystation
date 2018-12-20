@@ -9,7 +9,6 @@ $('.span-logo').click(()=>{
 
 
 })
-
     if (localStorage.getItem('goodtocar') == null || JSON.parse(localStorage.goodtocar) == '') {
         $('.nogoods').removeClass('hid')
         $('.hasgoods').addClass('hid')
