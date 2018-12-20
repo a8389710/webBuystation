@@ -64,10 +64,6 @@ function homePageAjax() {
             // 总页数 = 所有数据除以10  每一页有10个数据 
             allPage = Math.ceil(datas.length / 20);
             total.text(allPage);
-
-       
-           
-           
         }
     });
     // 3. 数据添加
@@ -187,9 +183,7 @@ function tabshow(){
     })
 }
 
-//传递数据
-
-
+//网址跳转
 function gotobuycar (){
     $('.aside-purches').click(()=>{
         window.open('./pages/buy-car.html',"_self")
@@ -199,6 +193,7 @@ function gotobuycar (){
 function gotologin(){
     $('.sn-login').click(()=>{
         window.open('./pages/login.html',"_self")
+        alert(1)
     })
 }
 //展示用户昵称
