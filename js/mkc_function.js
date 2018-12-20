@@ -199,19 +199,28 @@ function gotologin(){
 }
 //展示用户昵称
 function usermsgshow(){
-    var num = null;
-    if(localStorage.getItem('islogin') || !JSON.parse(localStorage.islogin)){
+    var num = 0;
+    if(localStorage.getItem('islogin')=="" || JSON.parse(localStorage.islogin)==null){
+        return;
+    }
+    else{  
         $('.login-show').addClass('hid');
         $('.go-down').removeClass('hid')
         var j = JSON.parse(localStorage.userj)
         $('.username').text(j);
-        if(localStorage.getItem('goodtocar')==""||JSON.parse(localStorage.goodtocar)!=null){
+        }
+      
+
+        if(localStorage.getItem('goodtocar')!=""||JSON.parse(localStorage.goodtocar)!=null){
             num = JSON.parse(localStorage.goodtocar).length;
+            $('.cart-count').text(num)
+        }
+        else{
             $('.cart-count').text(num)
         }
     
     }
-}
+
 
 function godown(){
     var k = '';
@@ -304,7 +313,7 @@ function search(datas,p,fnum){
         p.html(listr);
         tabshow();
         msgpass(keybox,fnum)
-       $('.ui-page').addClass('hid')
+        $('.ui-page').addClass('hid')
 
             })
 
@@ -320,7 +329,7 @@ function msgpass(g,fnum){
         $(m).click(()=>{
             goodbox.push(g[i])
             localStorage.goodtodetail = JSON.stringify(goodbox.reverse()[0]);
-            window.open('./pages/details.html');
+            window.open('./pages/details.html',"_self");
          
         })
         
