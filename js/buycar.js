@@ -173,13 +173,11 @@ $('.span-logo').click(()=>{
 
         //结算
         $('.btn-pay').click(() => {
-          
             var goodpay = [];
             //获取每一条商品数据的下标
             $('.ipt-good').each((i, m) => {
 
                 if (m.checked) {
-
                     goodpay.push(goods[i])
                 }
 

@@ -11,10 +11,10 @@ $(function() {
         <img src=${m.goodView} alt="">
         <p class="title">${m.title} </p>
         <p class="des">
-            <span>网络类型：无需合约版</span>
-            <span>机身颜色：${m.goodDes} </span>
-            <span>套餐类型：官方标配  </span>
-            <span>存储容量：64GB     </span>
+            <span>网络类型：${m.goodDes.webtype}</span>
+            <span>机身颜色：${m.goodDes.phonecolor} </span>
+            <span>套餐类型：${m.goodDes.kindtype} </span>
+            <span>存储容量：${m.goodDes.room}    </span>
         </p>
         <p class="price">${m.onePrice}</p>
         <p class="count">${m.count}</p>
@@ -23,12 +23,11 @@ $(function() {
 
     </div>
 </li>`
+        });
 
 
-        })
         //页面加载订单数据
     $('.order-list ul').html(htmlstr);
-
     //改变地址栏样式
     $('.receiver-msg').each((index, m) => {
         $(m).addClass('ddd');
@@ -68,9 +67,5 @@ $(function() {
         ordertotal = ordertotal + parseFloat($(m).find('.total').text());
 
     })
-
-    $('.pay-box .total').text('￥' + ordertotal)
-
-
-
+    $('.pay-box .total').text('￥' + ordertotal);
 })
