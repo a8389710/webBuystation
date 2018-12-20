@@ -232,6 +232,7 @@ function godown(){
             islogin = false;
             localStorage.islogin = JSON.stringify(islogin)
             localStorage.userj = JSON.stringify(k)
+            location.reload();
         }
         })
 }
