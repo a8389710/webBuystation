@@ -188,13 +188,13 @@ function tabshow(){
 
 function gotobuycar (){
     $('.aside-purches').click(()=>{
-        window.open('/pages/buy-car.html')
+        window.open('./pages/buy-car.html')
     })
 }
 
 function gotologin(){
     $('.sn-login').click(()=>{
-        window.open('/pages/login.html')
+        window.open('./pages/login.html')
     })
 }
 
