@@ -38,7 +38,7 @@ $(function() {
     
                 var imgadr = '';
                
-                imgadr ='./' + $($m[1]).css('background-image').slice(30).slice(0,-2);
+                imgadr ='./' + $($m[1]).css('background-image').slice(29).slice(0,-2);
                 console.log(imgadr)
                 goodsdetail.goodView = imgadr;
                 goodsbox.push(goodsdetail)
@@ -67,7 +67,7 @@ $(function() {
                   goodsdetail.htotal = goodsdetail.onePrice * goodsdetail.count;
                //获取购物车展示图片地址
                   var imgadr = '';
-                  imgadr ='./' + $($m[1]).css('background-image').slice(30).slice(0,-2);   
+                  imgadr ='./' + $($m[1]).css('background-image').slice(31).slice(0,-2);   
                   goodsdetail.goodView = imgadr;
 
 
