@@ -116,7 +116,7 @@ $(function() {
                 localStorage.islogin = JSON.stringify(islogin);
                 localStorage.userj = JSON.stringify(userjname);
 
-                window.open('../index.html')
+                window.open('../index.html',"_self");
             } else {
                 alert('该用户尚未注册 或 用户名或密码错误!')
             }
