@@ -192,8 +192,7 @@ function gotobuycar (){
 
 function gotologin(){
     $('.sn-login').click(()=>{
-        window.open('./pages/login.html',"_self")
-        alert(1)
+        window.open('./pages/login.html',"_self");
     })
 }
 //展示用户昵称
