@@ -12,7 +12,7 @@ $(function() {
     })
 
     tabshow();
-    gotobuycar ();
+    gotobuycar();
     gotologin();
     usermsgshow();
     godown();
@@ -186,15 +186,16 @@ function tabshow(){
 //网址跳转
 function gotobuycar (){
     $('.aside-purches').click(()=>{
-        window.open('/webBuystation/pages/buy-car.html',"_self")
+        window.open('./pages/buy-car.html',"_self")
     })
 }
 
 function gotologin(){
     $('.sn-login').click(()=>{
-        window.open('/webBuystation/pages/login.html',"_self");
+        window.open('./pages/login.html')
     })
 }
+
 //展示用户昵称
 function usermsgshow(){
     var num = 0;
@@ -268,7 +269,7 @@ function search(datas,p,fnum){
                         m.imgChose.forEach(a => {          
                             ob +=`
                             <img class="productImg hid"  src="${a}"  alt="">
-                            `
+                            `;
                         });
                         return ob;
                     }()}
@@ -303,19 +304,14 @@ function search(datas,p,fnum){
                     <a class="productShop-name" href="#javascript:;">${m.des}</a>
                 </div>
             </div>
-        </li>
+        </li>   
     `;
-
        })
-      
         p.html(listr);
         tabshow();
-        msgpass(keybox,fnum)
-        $('.ui-page').addClass('hid')
-
+        msgpass(keybox,fnum);
+        $('.ui-page').addClass('hid');
             })
-
-
         }
 
 //信息传递
