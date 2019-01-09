@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
 
     $('.btn-register').click(() => {
         $('.login').addClass('hidden'),
@@ -35,22 +35,20 @@ $(function() {
                 userbox.push(usermsg);
                 alert('注册成功！');
                 islogin = true;
-                window.open('../index.html',"_self");
+                window.open('../index.html', "_self");
                 userjname = usermsg.name
                 localStorage.islogin = JSON.stringify(islogin);
                 localStorage.userj = JSON.stringify(userjname);
                 localStorage.users = JSON.stringify(userbox);
                 return;
-            }
+            } else { 
             //非第一次注册
-            else {
-
                 userbox = JSON.parse(localStorage.users)
                 userbox.forEach((m) => {
                     console.log(m.name)
                     if (usermsg.name == m.name) {
                         alert('该用户已注册！');
-                        isresed = true
+                        isresed = true;
                         return isresed;
                     }
                 });
@@ -59,14 +57,13 @@ $(function() {
                 } else {
                     alert('注册成功！')
                     islogin = true;
-                    userbox.push(usermsg)
+                    userbox.push(usermsg);
                     localStorage.users = JSON.stringify(userbox);
                     var userjname = '';
-                    userjname = usermsg.name
+                    userjname = usermsg.name;
                     localStorage.islogin = JSON.stringify(islogin);
                     localStorage.userj = JSON.stringify(userjname);
-
-                    window.open('../index.html',"_self")
+                    window.open('../index.html', "_self")
                 }
 
             }
@@ -85,10 +82,7 @@ $(function() {
         var islogin = false;
         usermsg.name = $('#login-username').val();
         usermsg.password = $('#login-password').val();
-
-
         //将输入信息与后台用户信息匹配
-
         //匹配是否成功
         if (usermsg.name == '' || usermsg.password == '' || JSON.parse(localStorage.users == '' || localStorage.getItem('users') == null)) {
             alert('请输入正确用户名、密码!')
@@ -96,7 +90,6 @@ $(function() {
         } else {
             userbox = JSON.parse(localStorage.users)
             userbox.forEach((m, index) => {
-
                 if (usermsg.name == m.name) {
                     if (usermsg.password == userbox[index].password) {
                         alert('登录成功！');
@@ -109,14 +102,12 @@ $(function() {
                 }
             });
             if (islogin) {
-                alert('即将跳转页面，请稍等...')
-                
+                alert('即将跳转页面，请稍等...');
                 var userjname = '';
                 userjname = usermsg.name
                 localStorage.islogin = JSON.stringify(islogin);
                 localStorage.userj = JSON.stringify(userjname);
-
-                window.open('../index.html',"_self");
+                window.open('../index.html', "_self");
             } else {
                 alert('该用户尚未注册 或 用户名或密码错误!')
             }

@@ -1,14 +1,9 @@
-$(function() {
-
+$(function () {
     var _this = this;
     //如果购物车没有东西
-
-$('.span-logo').click(()=>{
-
-    window.open('../index.html')
-
-
-})
+    $('.span-logo').click(() => {
+        window.open('../index.html');
+    })
     if (localStorage.getItem('goodtocar') == null || JSON.parse(localStorage.goodtocar) == '') {
         $('.nogoods').removeClass('hid')
         $('.hasgoods').addClass('hid')
@@ -24,11 +19,9 @@ $('.span-logo').click(()=>{
 
         var goods = JSON.parse(localStorage.goodtocar)
         var htmlstr = '';
-
         $(goods).each((index, m) => {
-                htmlstr +=
-                    ` <li class="shop-goods">
-        
+            htmlstr +=
+                ` <li class="shop-goods">
             <div class="shop-name">
                <span>${m.shopName}</span>
             </div>
@@ -55,19 +48,12 @@ $('.span-logo').click(()=>{
                 </ul>
             </div>
         </li>`;
-
-            })
-            //购物车物品展示
-
-        $('.goods-list').html(htmlstr)
-            //商品数量显示
-        $('.goodsnum').text(goods.length)
-
-
-
-
+        })
+        //购物车物品展示
+        $('.goods-list').html(htmlstr);
+        //商品数量显示
+        $('.goodsnum').text(goods.length);
         //物品选择
-
         var moneys = 0;
         var chosenum = 0;
         var ischeck = false; //全选标记
@@ -78,7 +64,7 @@ $('.span-logo').click(()=>{
                 //全选加载价格
                 $('.ipt-good').each((i, n) => {
                     if (!n.checked) {
-                        moneys += parseFloat($(n).siblings('.htotal').text().slice(0,-1))
+                        moneys += parseFloat($(n).siblings('.htotal').text().slice(0, -1))
                     }
                     chosenum = $('.ipt-good').length;
                 })
@@ -87,7 +73,6 @@ $('.span-logo').click(()=>{
                 ischeck = true;
                 $('.chosed-num').text(chosenum)
                 $('.chosed-total').text(moneys + '.00')
-
             }
             //取消全选
             else {
@@ -98,16 +83,13 @@ $('.span-logo').click(()=>{
                 $('.chosed-total').text(moneys + '.00')
                 $('.chosed-num').text(chosenum)
             }
-        })
-
+        });
         //计算所选择的物品的总价
         //单选
-
-
         $('.ipt-good').each((i, n) => {
             $(n).click(() => {
                 if (n.checked) {
-                    moneys += parseFloat($(n).siblings('.htotal').text().slice(0,-1))
+                    moneys += parseFloat($(n).siblings('.htotal').text().slice(0, -1))
                     chosenum = chosenum + 1
                     $('.chosed-num').text(chosenum);
                     //如果数字和选中标签相同，则代表全部选中
@@ -115,7 +97,6 @@ $('.span-logo').click(()=>{
                         $('.all').prop('checked', !ischeck)
                         ischeck = true;
                     }
-
                     //如何判断最后一个ipt标签选中之后全选也被选中
                 } else {
                     ischeck = false;
@@ -124,42 +105,29 @@ $('.span-logo').click(()=>{
                     chosenum = chosenum - 1
                     $('.chosed-num').text(chosenum)
                 }
-                $('.chosed-total').text(moneys + '.00')
-            })
-
-        })
-
-
+                $('.chosed-total').text(moneys + '.00');
+            });
+        });
         //删除按钮
         $('.delete-li').each((i, m) => {
-
             $(m).click(() => {
-
-                var a = confirm('确定删除该商品吗？')
-                    //每一个待删除的数据的li的下标
+                var a = confirm('确定删除该商品吗？');
+                //每一个待删除的数据的li的下标
                 var idx = $(m).parent().parent().parent().parent().parent().index();
-
                 if (a) {
-
                     //删除对应标签以及展示内容
                     $(m).parent().parent().parent().parent().parent().remove();
                     //删除本地后台对应数据
                     goods.splice(idx, 1)
-                        //将新的数据存入本地后台数据
+                    //将新的数据存入本地后台数据
                     localStorage.goodtocar = JSON.stringify(goods)
-                        //自动刷新页面
+                    //自动刷新页面
                     window.location.reload();
-
-                }
-
+                };
             })
-
         })
-
         $('.delete-all').click(() => {
-
             var a = confirm('确定删除所有商品吗？')
-
             if (a) {
                 goods = []
                 console.log(goods)
@@ -168,9 +136,7 @@ $('.span-logo').click(()=>{
             } else {
                 return;
             }
-
-        })
-
+        });
         //结算
         $('.btn-pay').click(() => {
             var goodpay = [];
@@ -180,11 +146,7 @@ $('.span-logo').click(()=>{
                 if (m.checked) {
                     goodpay.push(goods[i])
                 }
-
-
-
             })
-
             //将待结算商品传递到订单结算页面
             if (goodpay == '') {
                 alert('.请选择您要结算的商品！')
@@ -193,31 +155,6 @@ $('.span-logo').click(()=>{
                 localStorage.goodtopay = JSON.stringify(goodpay)
                 window.open('./order.html')
             }
-
-
         })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
 })
