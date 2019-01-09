@@ -91,7 +91,10 @@ $(function () {
 
     $('.fast-buy-btn').click(() => {
         if (($('.red-active').length == 4)) {
-            window.open('./buy-car.html', "_self")
+            var a = confirm('要确认商品添加了购物车哦~')
+            if (a) {
+                window.open('./buy-car.html', "_self")
+            }
         } else {
             alert('请完善商品信息!');
             return;
